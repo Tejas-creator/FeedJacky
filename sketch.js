@@ -62,10 +62,6 @@ function draw() {
     update("Hungry")
     foodObj.display();
    }
-
-   if(background === bg){
-     console.log("idk wat to do");
-   }
    
    if(gameState!="Hungry"){
      feed.hide();
